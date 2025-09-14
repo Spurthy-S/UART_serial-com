@@ -51,6 +51,6 @@ vlog tb/*.v
 
 📜 License
 
-This project is licensed under the MIT License.staSim / ModelSim
+This project is licensed under the MIT License
 
 
