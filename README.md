@@ -19,6 +19,7 @@ src/ → Verilog source files
 tb/ → Testbenches & QuestaSim scripts
 │ └──receiver_tb.v
 │ └──rtransmitter_tb.v
+```
 
 
 ## ▶️ Simulation (QuestaSim)
