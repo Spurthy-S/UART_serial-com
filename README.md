@@ -19,16 +19,26 @@ src/ → Verilog source files
 tb/ → Testbenches & QuestaSim scripts
 │ └──receiver_tb.v
 │ └──rtransmitter_tb.v
+
+
+## ▶️ Simulation (QuestaSim)
+
+### Compile sources
+```tcl
+vlib work
+vlog src/*.v
+vlog tb/*.v
+
 ```
 ## ▶️ Run testbenches (QuestaSim)
   >Receiver Testbench
-  ```
+  ```tcl
     vsim work.receiver_tb
     run -all
 ```
 
   >Transmitter Testbench
-  ```
+  ```tcl
     vsim work.transmitter_tb
     run -all
   ```
