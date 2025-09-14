@@ -43,5 +43,14 @@ vlog tb/*.v
     run -all
   ```
 
+⚙️ Requirements
+  >QuestaSim / ModelSim
+  >Verilog simulator
+  >(Optional) FPGA board for synthesis
+📜 License
 
+This project is licensed under the MIT License.staSim / ModelSim
 
+Verilog simulator
+
+(Optional) FPGA board for synthesis
