@@ -12,11 +12,26 @@ A reusable **UART (Universal Asynchronous Receiver/Transmitter)** IP core writte
 ## 📂 Project Structure
 ```
 src/ → Verilog source files
-  │ ├── brg.v # Baud Rate Generator
-  │ ├── transmitter.v # Transmitter
-  │ ├── receiver.v # Receiver
+│ ├── brg.v # Baud Rate Generator
+│ ├──transmitter.v # Transmitter
+│ ├── receiver.v # Receiver
 
 tb/ → Testbenches & QuestaSim scripts
-  │ └──receiver_tb.v
-  │ └──rtransmitter_tb.v
+│ └──receiver_tb.v
+│ └──rtransmitter_tb.v
 ```
+## ▶️ Run testbenches (QuestaSim)
+  >Receiver Testbench
+  ```
+    vsim work.receiver_tb
+    run -all
+```
+
+  >Transmitter Testbench
+  ```
+    vsim work.transmitter_tb
+    run -all
+  ```
+
+
+
