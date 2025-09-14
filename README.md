@@ -10,11 +10,13 @@ A reusable **UART (Universal Asynchronous Receiver/Transmitter)** IP core writte
 - Synthesizable for FPGA/ASIC  
 
 ## 📂 Project Structure
-```src/ → Verilog source files
+```
+src/ → Verilog source files
   │ ├── brg.v # Baud Rate Generator
   │ ├── transmitter.v # Transmitter
   │ ├── receiver.v # Receiver
 
 tb/ → Testbenches & QuestaSim scripts
   │ └──receiver_tb.v
-  │ └──rtransmitter_tb.v```
+  │ └──rtransmitter_tb.v
+```
