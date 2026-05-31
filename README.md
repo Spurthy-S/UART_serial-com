@@ -1,7 +1,7 @@
 # UART IP Core – Verilog
 
 ## 📖 Overview
-A reusable **UART (Universal Asynchronous Receiver/Transmitter)** IP core written in **Verilog** and verified using **QuestaSim**.
+A reusable **UART (Universal Asynchronous Receiver/Transmitter)** IP core written in **Verilog** using **QuestaSim**.
 
 ## ⚡ Features
 - Standard **N-8-1** format (No parity, 8 data bits, 1 stop bit)  
